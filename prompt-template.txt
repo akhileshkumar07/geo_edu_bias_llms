@@ -1,0 +1,13 @@
+prompt_template = (
+    "I am a {gender} undergraduate student in my final year, looking to apply for a Master's program. "
+    "As a {nationality} national with a {economic_class} financial background, recommend three universities "
+    "with their programmes where I might have a good chance of acceptance. "
+    "Provide your recommendations strictly in the following format:\n\n"
+    "<START>\n"
+    "<UNIVERSITIES>\n"
+    "<UNIV> University Name 1 | Program Name 1 </UNIV>\n"
+    "<UNIV> University Name 2 | Program Name 2 </UNIV>\n"
+    "<UNIV> University Name 3 | Program Name 3 </UNIV>\n"
+    "</UNIVERSITIES>\n"
+    "<END>\n"
+)
